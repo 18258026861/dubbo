@@ -1,4 +1,4 @@
-package com.example.provider.service;
+package com.example.interfaces.service;
 
 /**
  * @author YZY

@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>provider</artifactId>
+    <artifactId>interfaces</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>provider</name>
+    <name>interfaces</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -19,13 +19,6 @@
     </properties>
 
     <dependencies>
-
-        <dependency>
-            <groupId>com.example</groupId>
-            <artifactId>interfaces</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-
         <!--        dubbo依赖-->
         <!-- https://mvnrepository.com/artifact/org.apache.dubbo/dubbo-spring-boot-starter -->
         <dependency>
@@ -67,7 +60,7 @@
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
         <dependency>
